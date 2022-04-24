@@ -1,0 +1,65 @@
+#spanPosted{
+    color: red;
+}
+
+#divPosted{
+    display: none;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    border: 3px solid green;
+    padding: 10px;
+    min-width: 600px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+img.person{
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+
+.ulLiveApplications p{
+    margin: 5px 10px 3px 10px;
+}
+
+.ulLiveApplications li{
+    margin-top: 10px;
+}
+
+.ulLiveApplications > li > p:first-child{
+    font-weight: 700;
+}
+.ulLiveApplications small{
+    font-style: italic;
+    margin-left: 10px;
+}
+.ulLiveApplications a{
+    margin-left: 10px;
+    width: 100%;
+    display: block;
+}
+
+.containerTable{
+    width: 100%;
+}
+.containerTable tr:first-child td:first-child{
+    width: 30%;
+    max-width: 200px;
+    text-align: center;
+}
+
+.linkedInLink img{
+    display: inline-block;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.linkedInLink a{
+    margin-top: -20px;
+}
+
